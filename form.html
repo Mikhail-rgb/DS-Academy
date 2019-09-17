@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DS Academy - frontend</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+	<div id="back">
+		<form id="form" action="https://digital-spectr.com/ac/academy.php" method="POST">
+			<legend>Задать вопрос</legend>
+			<div id="nameblock" class="inputfield">
+				<input id="username" type="text" name="name" placeholder=" Фамилия Имя Отчество *" autofocus pattern="[А-Яа-яЁё]+" title="Только русские буквы, пробелы, тире.">
+			</div>
+			<div id="phoneblock" class="inputfield">
+				<input id="userphone" type="tel" name="phone" placeholder=" Телефон *" pattern="^[0-9]+$" title="Пример: 81231231212">
+			</div>
+			<div id="emailblock" class="inputfield">
+				<input id="useremail" type="email" name="email" placeholder=" Email">
+			</div>
+			<input id="submit" class="inputfield" type="submit" value="ОТПРАВИТЬ ЗАПРОС">
+		</form>
+	</div>
+</body>
+</html>	
